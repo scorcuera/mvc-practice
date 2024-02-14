@@ -1,0 +1,19 @@
+### Get all books
+GET http://localhost:3000/books
+
+### Get a book by id
+GET http://localhost:3000/books/3
+
+### Create a book
+POST http://localhost:3000/books
+
+{
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "year": 1937
+}
+
+### Delete a book
+DELETE http://localhost:3000/books/3
+
+
